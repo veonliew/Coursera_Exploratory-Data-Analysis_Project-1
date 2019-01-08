@@ -13,7 +13,7 @@ with(data1, {
   plot(Datetime, Global_active_power, type="l", ylab="Global Active Power", xlab="")
   plot(Datetime, Voltage, type="l", ylab="Voltage", xlab="datetime")
   plot(Sub_metering_1~Datetime, type="l",
-       ylab="Enery sub metering", xlab="")
+       ylab="Energy sub metering", xlab="")
   lines(Datetime, Sub_metering_2, type = "l", col='Red')
   lines(Datetime, Sub_metering_3, type = "l", col='Blue')
   legend("topright", col=c("black", "red", "blue"), lty=1, lwd=2, 
