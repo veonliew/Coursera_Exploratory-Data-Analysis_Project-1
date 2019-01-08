@@ -10,7 +10,7 @@ data1$Datetime <- as.POSIXct(data1$Datetime)
 png("plot3.png", width=480, height=480) 
 with(data1, {
   plot(Datetime, Sub_metering_1, type="l",
-       ylab="Enery sub metering", xlab="")
+       ylab="Energy sub metering", xlab="")
   lines(Datetime, Sub_metering_2, type = "l", col='Red')
   lines(Datetime, Sub_metering_3, type = "l", col='Blue')
 })
